@@ -1,0 +1,65 @@
+===============================================================
+MELCO LGY-98 C-BUS Ethernet OS/2 NDIS 2.0.1 MAC driver ver.1.00
+===============================================================
+
+MELCO LGY-98 is a NE2000-compatible-like Ethernet Network Interface 
+Card to insert NEC PC-98x1 C-BUS slots.
+This driver is useless for the eComStation users, since NEC PC-98x1 
+is not the PC/AT architecture:-)
+
+Included files are:
+lgy98.os2	NDIS 2.0.1 MAC driver
+lgy98.nif	Network Information File
+lgy98.sym	Symbol Map file
+lgy98.lnk	Document (this file)
+lgy98jp.lnk	Document (Japanese)
+source.zip	Zip archive of source files
+
+
+1.No Warranty
+
+This code is provided 'AS IS' and any warranties are disclaimed.
+
+
+2.Card resource configuration
+
+No tool to configure the card resource on OS/2 Warp.
+Use the DOS utility which is provided from MELCO. 
+
+The website of MELCO: http://www.melcoinc.co.jp/ 
+The driver/utility download page for LGY-98: 
+ http://buffalo.melcoinc.co.jp/download/driver/lan/lgy-98.html
+
+
+3.Redistribution with modification
+
+You should add your copyright notice, 
+"(c)Copyright 2003 your name. All rights reserved."
+and remove mine,
+"(c)Copyright 2003 chagrin. Some rights reserved."
+
+This means that the modified binary/source is not mine, but yours, 
+regardless of the degree of the modification. 
+You can redistribute, of course, that for the commercial purpose 
+without any fee to me, without releasing the source, if you want.
+
+Don't forget that I'm never liable for your product.
+(You, also, should add disclaimer.)
+
+
+4.Acknowledge
+
+The datasheet of the National Semiconductor DP83907 is very useful 
+to learn how to control NE2000-compatible ethernet chips.
+
+
+5.History
+
+ver.1.00 - 6/18, 2003.
+- Initial release.
+
+
+6.Contact to the author
+
+Email to YANAGIHARA, Nobuyuki:
+ <VYL00513@nifty.ne.jp>

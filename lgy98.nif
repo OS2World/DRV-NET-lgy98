@@ -1,0 +1,55 @@
+[LGY98]
+Type = NDIS
+Title = "MELCO LGY-98 C-BUS Ethernet MAC driver"
+Version = 2.01
+DriverName = LGY98$
+Xports = NETBEUI, LANDD
+
+[FILE]
+Name = LGY98.OS2
+Path = IBMCOM\MACS
+
+
+[IOBASE]
+display = "Base I/O Address"
+tag = IOAddress
+type = hexadecimal
+default = d0
+optional = yes
+editable = yes
+set = d0,10d0,20d0,30d0,40d0,50d0,60d0,70d0
+help = "IOBASE=n, specifies the base I/O address of the adapter."
+
+
+[INTERRUPT]
+display = "Interrupt Level"
+tag = Interrupt
+type = decimal
+default = 3
+optional = yes
+editable = yes
+set = 3,5,6,12
+help = "INTERRUPT=n, specifies the Interrupt level of the adapter."
+
+
+[TXQUEUE]
+display = "TX buffer count"
+type = decimal
+;dafault = 2
+optional = yes
+editable = yes
+range = 1-4
+help = "TXQUEUE=n, n=1..4, specifies the number of the buffers 
+whitch is reserved by the driver. The default value is 2."
+
+
+[LTXQUEUE]
+display = "Logical TX queue count"
+type = decimal
+;dafault = 6
+optional = yes
+editable = yes
+range = 2-8
+help = "LTXQUEUE=n, n=2..8, specifies the number of transmits  
+which can be queued up by the driver. The default value is 6."
+

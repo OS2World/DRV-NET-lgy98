@@ -1,0 +1,65 @@
+===============================================================
+MELCO LGY-98 C-BUS Ethernet OS/2 NDIS 2.0.1 MAC driver ver.1.00
+===============================================================
+
+MLECO LGY-98 は NEC PC-98x1 の C-BUS スロットに挿す，
+NE2000 互換っぽいイーサーネット・ネットワークカードです．
+このドライバは eComStaion の使用者には無用です，だってぇ 
+PC-98x1 は PC/AT 互換機じゃないんだもん^^)
+
+含まれるファイルは：
+lgy98.os2	NDIS 2.0.1 MAC driver
+lgy98.nif	Network Information File
+lgy98.sym	Symbol Map file
+lgy98.lnk	Document (English)
+lgy98jp.lnk	説明書 (このファイル)
+source.zip	Zip archive of source files
+
+
+1.無保証
+
+このコードは"あるがままに"提供されるもので，いかなる保証も拒否します．
+
+
+2.カード資源設定
+
+OS/2 Warp 上でカード資源を設定するツールはないの．
+MELCO から提供されている DOS ユーティリティを使ってね．
+
+MELCO のサイト: http://www.melcoinc.co.jp/ 
+LGY-98 のドライバ/ユーティリティ ダウンロードページ: 
+ http://buffalo.melcoinc.co.jp/download/driver/lan/lgy-98.html
+
+
+3.変更しての再配布
+
+あなたの著作権表示
+"(c)Copyright 2003 あなたの名前. All rights reserved."
+をつけ加え，私の表示(がもしあれば)
+"(c)Copyright 2003 chagrin. Some rights reserved."
+取り除いて下さい．
+
+改変されたバイナリ，ソースは，その改変の程度に関わらず，
+私のものではなくあなたの作品だと言うことです．
+もちろん，あなたが望むなら，私に何らかの対価を支払うことなく，
+ソースを公開することなく，商用目的に使っても構いません．
+
+あなたの作品に私は一切責任を負いません．
+(あなたも責任放棄の文言を入れるべし)
+
+
+4.謝辞
+
+National Semiconductor DP83907 のデータシートは，NE2000 互換チップを
+制御する方法を学ぶ上で，とっても役立ちました．ありがとう．
+
+
+5.履歴
+
+ver.1.00 - 6/18, 2003.
+- 初版
+
+
+6.作者への連絡先
+
+柳原信幸 <VYL00513@nifty.ne.jp>
